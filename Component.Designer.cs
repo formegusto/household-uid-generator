@@ -40,6 +40,7 @@
 			this.metroButton1.Text = "Generate UID";
 			this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
 			this.metroButton1.UseSelectable = true;
+			this.metroButton1.Click += new System.EventHandler(this.Generate_UID);
 			// 
 			// Component
 			// 
